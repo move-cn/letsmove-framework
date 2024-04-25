@@ -711,6 +711,7 @@ module std::vector {
 | package.move              |            包管理和升级 |   掌握   |
 | pay.move                  |     对Coin的快捷处理函数， |  完全掌握  |
 | prover.move               |           用不上自行了解 |   了解   |
+| random.move               |               随机数 |  完全掌握  |
 | sui.move                  |           SUI 的定义 |   了解   |
 | table.move                |     map结构，值类型必须一样 |  完全掌握  |
 | table_vec.move            |       用table实现的数组 |   掌握   |
