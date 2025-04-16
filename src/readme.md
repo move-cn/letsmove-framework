@@ -13,29 +13,29 @@
 
 
 ## 总览，可以这样说 就是最好把这个系列的都完全掌握
-| 模块名          |            大概用途 | 需要掌握程度 |
-|:-------------|----------------:|:------:|
-| address.move |            地址长度 |   了解   |
-| ascii.move   |     ascii编码的字符串 |  完全掌握  |
-| bcs.move     |      把数据序列化成二进制 |   掌握   |
-| bit_vector.move   |      bit 位标记的数组 |   掌握   |
-| debug.move |       调试代码，打印输出 |  完全掌握  |
-| fixed_point32.move   |             浮点数 |   掌握   |
-| hash.move |          hash函数 |   掌握   |
-| option.move   |             可选值 |  完全掌握  |
-| type_name.move     |         获取结构的类型 |  完全掌握  |
-| unit_test.move   | 单元测试生成测试signers |   了解   |
-| vector.move |              数组 |  完全掌握  |
+| 模块名                     |               大概用途 | 需要掌握程度 |
+|:------------------------|-------------------:|:------:|
+| address.move            |               地址长度 |   了解   |
+| ascii.move              |        ascii编码的字符串 |  完全掌握  |
+| bcs.move                |         把数据序列化成二进制 |   掌握   |
+| bit_vector.move         |         bit 位标记的数组 |   掌握   |
+| debug.move              |          调试代码，打印输出 |  完全掌握  |
+| fixed_point32.move      | 已经废弃不用学了       浮点数 |   掌握   |
+| hash.move               |             hash函数 |   掌握   |
+| option.move             |                可选值 |  完全掌握  |
+| type_name.move          |            获取结构的类型 |  完全掌握  |
+| unit_test.move          |    单元测试生成测试signers |   了解   |
+| vector.move             |                 数组 |  完全掌握  |
+| u16.move -   u256.move  |         对整数的基本数学操作 |  完全掌握  |
+| uq32.move -   uq64.move |           整数模拟的浮点数 |  完全掌握  |
 
 ## address.move
     基本上没什么用处
 ```move
-module std::address {
-    public fun length(): u64 {
-        32
-    }
+module std::address;
+public fun length(): u64 {
+    32
 }
-
 ```
 
 ## ascii.move
